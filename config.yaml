@@ -1,0 +1,30 @@
+# PBS flags
+queue: express
+project: e14
+walltime: 00:20:00
+ncpus: 8
+mem: 16GB
+jobname: MOM_Gyre
+
+#collate_walltime: 10:00:00
+#collate_mem: 16GB
+collate_walltime: 00:30:00
+collate_mem: 2GB
+collate_ncpus: 1
+collate_queue: express
+collate_flags: -n4 -z -m -r
+collate_exe: /short/v45/aph502/mom/bin/mppnccombine
+
+# Model config
+model: mom
+shortpath: /short/e14
+exe: fms_MOM_solo.x
+input:
+     - gyre1
+collate: true
+restart_freq: 1
+
+# Misc
+stacksize: unlimited
+mpirun: --mca mtl mxm
+qsub_flags: -lother=hyperthread

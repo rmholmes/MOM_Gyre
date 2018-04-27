@@ -1,0 +1,125 @@
+"prog_tracers","ocean_mod","temp"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+restart_file  = ocean_temp_salt.res.nc
+const_init_tracer = f
+const_init_value = 12.0
+psom_limit=.true.
+/
+"prog_tracers","ocean_mod","salt"
+horizontal-advection-scheme = psom
+vertical-advection-scheme = psom
+restart_file  = ocean_temp_salt.res.nc
+psom_limit=.true.
+/
+"tracer_packages","ocean_mod","ocean_age_tracer"
+names = global
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+restart_file  = ocean_age.res.nc
+min_tracer_limit=0.0
+/
+"prog_tracers","ocean_mod","age_global"
+const_init_tracer = t
+const_init_value = 0.0
+/
+"namelists","ocean_mod","ocean_age_tracer/global"
+slat = -90.0
+nlat =  90.0
+wlon =   0.0
+elon = 360.0
+/
+"tracer_packages","ocean_mod","ocean_passive"
+names = patch_5,patch_10,patch_15,patch_20,patch_22,patch_26,patch_28,patch_32,patch_36,patch_38,patch_40,patch_44,patch_48
+/
+"prog_tracers","ocean_mod","passive_patch_5"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_10"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_15"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_20"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_22"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_26"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_28"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_32"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_36"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_38"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_40"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_44"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
+/
+"prog_tracers","ocean_mod","passive_patch_48"
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm 
+/
+"namelists","ocean_mod","ocean_passive/patch_5"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_10"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_15"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_20"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_22"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_26"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_28"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_32"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_36"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_38"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_40"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_44"
+init_condition=patch_klevel
+/
+"namelists","ocean_mod","ocean_passive/patch_48"
+init_condition=patch_klevel
+/

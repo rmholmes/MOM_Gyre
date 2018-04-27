@@ -158,7 +158,7 @@
 
  &ocean_model_nml
       dt_ocean = 5400
-      vertical_coordinate='pstar'
+      vertical_coordinate='zstar'
       time_tendency='twolevel'      
       baroclinic_split=1
       surface_height_split=1
@@ -241,7 +241,7 @@
 
  &ocean_solo_nml
       months = 0
-      days   = 2
+      days   = 180
       date_init = 1980,1,1,0,0,0
       hours = 0
       minutes = 0

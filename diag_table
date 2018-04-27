@@ -10,7 +10,7 @@
 "ocean_param",  1,"days" ,1,"days","Time"
 #"ocean_neutral",1,"days" ,1,"days","Time"
 "ocean_numeric",1,"days" ,1,"days","Time"
-"ocean_snap",   0,"days" ,1,"days","Time"
+"ocean_snap",   1,"days" ,1,"days","Time"
 "ocean_scalar", 1,"days" ,1,"days","Time"
 #
 #===========================================================================

@@ -115,7 +115,7 @@
 # Tendency:
 "ocean_model","temp_tendency","temp_tendency", "ocean_heat","all",.true.,"none",2
 
-All others (for checks, but don't run most of the time:
+# All others (for checks, but don't run most of the time:
 "ocean_model","temp_advection","temp_advection", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_submeso","temp_submeso", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_diff_cbt","temp_vdiffuse_diff_cbt", "ocean_heat","all",.true.,"none",2

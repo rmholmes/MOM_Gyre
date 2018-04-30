@@ -88,11 +88,12 @@
 /
 
  &ocean_density_nml
-      neutralrho_min=1029.0
-      neutralrho_max=1035.0
-      potrho_min=1029.0
-      potrho_max=1035.0
-      layer_nk=250
+      neutral_rho_equal_theta=.true.
+      potrho_min=-3.0
+      potrho_max=34.0
+      neutralrho_min=-3.0
+      neutralrho_max=34.0
+      layer_nk=74
       eos_linear=.true.
 /
 

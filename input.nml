@@ -242,7 +242,7 @@
 
  &ocean_solo_nml
       months = 0
-      days   = 360
+      days   = 180
       date_init = 1980,1,1,0,0,0
       hours = 0
       minutes = 0
@@ -349,7 +349,7 @@ frazil_heating_before_vphysics=.false.
 
  &ocean_vert_const_nml
       use_this_module=.true.
-      kappa_h=1.e-5
+      kappa_h=5.e-5
       diff_cbt_limit=2.e1
       kappa_m=0.0
 /

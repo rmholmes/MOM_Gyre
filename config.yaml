@@ -18,7 +18,7 @@ collate_exe: /short/v45/aph502/mom/bin/mppnccombine
 # Model config
 model: mom
 shortpath: /short/e14
-exe: fms_MOM_solo.x
+exe: fms_MOM_solo_nttest.x
 input:
      - gyre1
 collate: true

@@ -75,6 +75,10 @@
 "ocean_model","tx_trans_nrho","tx_trans_nrho", "ocean_wmass","all",.true.,"none",2
 "ocean_model","ty_trans_nrho","ty_trans_nrho", "ocean_wmass","all",.true.,"none",2
 
+# Temperature-binned heat transports (for numerical mixing):
+"ocean_model","temp_xflux_adv_on_nrho","temp_xflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_yflux_adv_on_nrho","temp_yflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",2
+
 # Eulerian heat budget diagnostics (for check)
 "ocean_model","geolon_t","geolon_t", "ocean_heat","all",.false.,"none",2
 "ocean_model","geolat_t","geolat_t", "ocean_heat","all",.false.,"none",2

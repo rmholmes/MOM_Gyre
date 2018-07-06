@@ -1,7 +1,7 @@
 # PBS flags
 queue: express
 project: e14
-walltime: 02:00:00
+walltime: 03:00:00
 ncpus: 8
 mem: 16GB
 jobname: MOM_Gyre

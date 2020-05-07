@@ -1,0 +1,33 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/gotmturb.inp:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/gotmturb.inp
+  hashes:
+    binhash: b590f0290ea3e92fba8454e1333612f4
+    md5: 3016ea3bccf1acd2c18eefdd6dbf02e9
+work/INPUT/grid_spec.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/grid_spec.nc
+  hashes:
+    binhash: 18a8857c37a1da5b6126b67c79800876
+    md5: fcd5d88739c42b1145d985df87400619
+work/INPUT/ocean.res.nc.cpio:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean.res.nc.cpio
+  hashes:
+    binhash: dbceed66015e99eaabd9854d5497215f
+    md5: d41d8cd98f00b204e9800998ecf8427e
+work/INPUT/ocean_age.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_age.res.nc
+  hashes:
+    binhash: 7836d023910814d536b1f1846ee6bc27
+    md5: e8d423d1f9a7dfe05e6f67f0071ca0e3
+work/INPUT/ocean_temp_salt.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_temp_salt.res.nc
+  hashes:
+    binhash: 21967b08274d648ef40daadaf011c467
+    md5: 8bcd93fc89b366cf4a954c7acde06ba9
+work/INPUT/tau.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/tau.nc
+  hashes:
+    binhash: 09f509bf05f5d902262e828f8a2250bc
+    md5: ffffcca8c32b77b958c03fe9c2f98b68

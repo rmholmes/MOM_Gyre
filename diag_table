@@ -6,6 +6,7 @@
 "ocean_heat",      30,  "days", 1, "days", "time",
 "ocean_snap",      30,  "days", 1, "days", "time",
 "ocean_wmass",     30,  "days", 1, "days", "time",
+"ocean_extra",     30,  "days", 1, "days", "time",
 #
 #===========================================================================
 # ocean model grid quantities (static fields and so not time averaged)
@@ -26,21 +27,22 @@
 "ocean_model","geolon_c","geolon_c",                 "ocean","all",.false.,"none",2
 "ocean_model","geolat_c","geolat_c",                 "ocean","all",.false.,"none",2
 "ocean_model","temp","temp",                         "ocean","all",.true.,"none",2
-"ocean_model","salt","salt",                         "ocean","all",.true.,"none",2
+"ocean_model","temp","temp",                         "ocean","all","rms","none",2
 "ocean_model","u","u",                               "ocean","all",.true.,"none",2
 "ocean_model","v","v",                               "ocean","all",.true.,"none",2
+"ocean_model","u","u",                               "ocean","all","rms","none",2
+"ocean_model","v","v",                               "ocean","all","rms","none",2
+"ocean_model","dzt","dzt",                           "ocean","all",.true.,"none",2
 "ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",                       "ocean","all",.true.,"none",2
 "ocean_model","pbot_t","pbot_t",                     "ocean","all",.true.,"none",2
 "ocean_model","tx_trans","tx_trans",                 "ocean","all",.true.,"none",2
 "ocean_model","ty_trans","ty_trans",                 "ocean","all",.true.,"none",2
-"ocean_model","ty_trans_rho","ty_trans_rho",         "ocean","all",.true.,"none",2
 "ocean_model","ty_trans_theta","ty_trans_theta",     "ocean","all",.true.,"none",2
 "ocean_model","mld","mld",                           "ocean","all",.true.,"none",2
 #===========================================================================
 # scalar fields
 "ocean_model","temp_global_ave","temp_global_ave"             , "ocean_scalar","all",.true.,"none",2
-"ocean_model","salt_global_ave","salt_global_ave"             , "ocean_scalar","all",.true.,"none",2
 "ocean_model","rhoave","rhoave"                               , "ocean_scalar","all",.true.,"none",2
 "ocean_model","total_volume_seawater","total_volume_seawater" , "ocean_scalar","all",.true.,"none",2
 "ocean_model","ke_tot","ke_tot"                               , "ocean_scalar","all",.true.,"none",2
@@ -49,48 +51,36 @@
 # Needed for Heat Budget Analysis
 #==========================================================================
 
-# Monthly averages of layer thickness:
-"ocean_model","dzt","dzt",            "ocean","all",.true.,"none",2
-
 # Monthly snapshots
-"ocean_model","geolon_t","geolon_t", "ocean_snap","all",.false.,"none",2
-"ocean_model","geolat_t","geolat_t", "ocean_snap","all",.false.,"none",2
-"ocean_model","geolon_c","geolon_c", "ocean_snap","all",.false.,"none",2
-"ocean_model","geolat_c","geolat_c", "ocean_snap","all",.false.,"none",2
-
-"ocean_model","temp","temp", "ocean_snap","all",.false.,"none",2
-"ocean_model","dzt","dzt",   "ocean_snap","all",.false.,"none",2
+"ocean_model","temp","temp", "ocean_snap","all",.false.,"none",1
+"ocean_model","dzt","dzt",   "ocean_snap","all",.false.,"none",1
 
 # Temperature-binned heat budget diagnostics
-"ocean_model","geolon_t","geolon_t", "ocean_wmass","all",.false.,"none",2
-"ocean_model","geolat_t","geolat_t", "ocean_wmass","all",.false.,"none",2
-"ocean_model","geolon_c","geolon_c", "ocean_wmass","all",.false.,"none",2
-"ocean_model","geolat_c","geolat_c", "ocean_wmass","all",.false.,"none",2
-
-"ocean_model","temp_tendency_on_nrho","temp_tendency_on_nrho", "ocean_wmass","all",.true.,"none",2
-"ocean_model","temp_advection_on_nrho","temp_advection_on_nrho", "ocean_wmass","all",.true.,"none",2
-"ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_tendency_on_nrho","temp_tendency_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_advection_on_nrho","temp_advection_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",1
 
 # Temperature-binned transports
-"ocean_model","tx_trans_nrho","tx_trans_nrho", "ocean_wmass","all",.true.,"none",2
-"ocean_model","ty_trans_nrho","ty_trans_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","tx_trans_nrho","tx_trans_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","ty_trans_nrho","ty_trans_nrho", "ocean_wmass","all",.true.,"none",1
 
 # Temperature-binned heat transports (for numerical mixing):
-"ocean_model","temp_xflux_adv_on_nrho","temp_xflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",2
-"ocean_model","temp_yflux_adv_on_nrho","temp_yflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",2
+"ocean_model","temp_xflux_adv_on_nrho","temp_xflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_yflux_adv_on_nrho","temp_yflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",1
 
 # Eulerian heat budget diagnostics (for check)
-"ocean_model","geolon_t","geolon_t", "ocean_heat","all",.false.,"none",2
-"ocean_model","geolat_t","geolat_t", "ocean_heat","all",.false.,"none",2
-"ocean_model","geolon_c","geolon_c", "ocean_heat","all",.false.,"none",2
-"ocean_model","geolat_c","geolat_c", "ocean_heat","all",.false.,"none",2
-
-# Tendency:
 "ocean_model","temp_tendency","temp_tendency", "ocean_heat","all",.true.,"none",2
-
-# All others (for checks, but don't run most of the time:
 "ocean_model","temp_advection","temp_advection", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_diff_cbt","temp_vdiffuse_diff_cbt", "ocean_heat","all",.true.,"none",2
+
+# Interesting extras:
+"ocean_model","temp_sort","temp_sort",               "ocean_extra","all",.true.,"none",1
+"ocean_model","kappa_sort","kappa_sort",             "ocean_extra","all",.true.,"none",1
+"ocean_model","temp_xflux_neutral","temp_xflux_neutral",  "ocean_extra","all",.true.,"none",2
+"ocean_model","temp_yflux_neutral","temp_yflux_neutral",  "ocean_extra","all",.true.,"none",2
+"ocean_model","aiso_bih","aiso_bih",                 "ocean_extra","all",.true.,"none",2
+"ocean_model","temp_h_diffuse","temp_h_diffuse",    "ocean_extra","all",.true. ,"none",2
+"ocean_model","depth_of_theta","depth_of_theta",    "ocean_extra","all",.true.,"none",2
 
 #======================================================================================
 #

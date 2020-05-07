@@ -27,11 +27,11 @@
 "ocean_model","geolon_c","geolon_c",                 "ocean","all",.false.,"none",2
 "ocean_model","geolat_c","geolat_c",                 "ocean","all",.false.,"none",2
 "ocean_model","temp","temp",                         "ocean","all",.true.,"none",2
-"ocean_model","temp","temp",                         "ocean","all","rms","none",2
+"ocean_model","temp","temp_rms",                         "ocean","all","rms","none",2
 "ocean_model","u","u",                               "ocean","all",.true.,"none",2
 "ocean_model","v","v",                               "ocean","all",.true.,"none",2
-"ocean_model","u","u",                               "ocean","all","rms","none",2
-"ocean_model","v","v",                               "ocean","all","rms","none",2
+"ocean_model","u","u_rms",                               "ocean","all","rms","none",2
+"ocean_model","v","v_rms",                               "ocean","all","rms","none",2
 "ocean_model","dzt","dzt",                           "ocean","all",.true.,"none",2
 "ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",                       "ocean","all",.true.,"none",2

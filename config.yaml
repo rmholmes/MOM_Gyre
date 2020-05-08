@@ -17,11 +17,15 @@ collate: true
 restart_freq: 1
 
 collate:
-  walltime: 1:00:00
+  walltime: 0:30:00
   mem: 30GB
   ncpus: 4
   queue: express
   exe: /g/data/ik11/inputs/access-om2/bin/mppnccombine
+
+storage:
+        gdata:
+                - ik11
 
 # Misc
 stacksize: unlimited

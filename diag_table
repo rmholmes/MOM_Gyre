@@ -35,6 +35,7 @@
 "ocean_model","v","v_rms",                               "ocean","all","rms","none",2
 "ocean_model","dzt","dzt",                           "ocean","all",.true.,"none",2
 "ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
+"ocean_model","aredi","aredi",                       "ocean","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",                       "ocean","all",.true.,"none",2
 "ocean_model","pbot_t","pbot_t",                     "ocean","all",.true.,"none",2
 "ocean_model","tx_trans","tx_trans",                 "ocean","all",.true.,"none",2
@@ -61,6 +62,8 @@
 "ocean_model","temp_advection_on_nrho","temp_advection_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_vdiffuse_sbc_on_nrho","temp_vdiffuse_sbc_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","neutral_diffusion_on_nrho_temp","neutral_diffusion_on_nrho_temp", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_vdiffuse_k33_on_nrho","temp_vdiffuse_k33_on_nrho", "ocean_wmass","all",.true.,"none",1
 
 # Temperature-binned transports
 "ocean_model","tx_trans_nrho","tx_trans_nrho", "ocean_wmass","all",.true.,"none",1
@@ -69,12 +72,16 @@
 # Temperature-binned heat transports (for numerical mixing):
 "ocean_model","temp_xflux_adv_on_nrho","temp_xflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_yflux_adv_on_nrho","temp_yflux_adv_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_xflux_ndiffuse_on_nrho","temp_xflux_ndiffuse_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_yflux_ndiffuse_on_nrho","temp_yflux_ndiffuse_on_nrho", "ocean_wmass","all",.true.,"none",1
 
 # Eulerian heat budget diagnostics (for check)
 "ocean_model","temp_tendency","temp_tendency", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_advection","temp_advection", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_diff_cbt","temp_vdiffuse_diff_cbt", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_sbc","temp_vdiffuse_sbc", "ocean_heat","all",.true.,"none",2
+"ocean_model","neutral_diffusion_temp","neutral_diffusion_temp", "ocean_heat","all",.true.,"none",1
+"ocean_model","temp_vdiffuse_k33","temp_vdiffuse_k33", "ocean_heat","all",.true.,"none",1
 
 # Interesting extras:
 "ocean_model","temp_sort","temp_sort",               "ocean_extra","all",.true.,"none",1

@@ -371,7 +371,7 @@ frazil_heating_before_vphysics=.false.
 
  &ocean_vert_mix_nml
       vert_mix_scheme='const' 
-      aidif=1.0
+      aidif=0.0
       vert_visc_back=.true.
       visc_cbu_back_max=1e-2
       visc_cbu_back_min=1e-3

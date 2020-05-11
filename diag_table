@@ -40,6 +40,8 @@
 "ocean_model","tx_trans","tx_trans",                 "ocean","all",.true.,"none",2
 "ocean_model","ty_trans","ty_trans",                 "ocean","all",.true.,"none",2
 "ocean_model","ty_trans_theta","ty_trans_theta",     "ocean","all",.true.,"none",2
+"ocean_model","temp_xflux_adv","temp_xflux_adv",                 "ocean","all",.true.,"none",2
+"ocean_model","temp_yflux_adv","temp_yflux_adv",                 "ocean","all",.true.,"none",2
 "ocean_model","mld","mld",                           "ocean","all",.true.,"none",2
 #===========================================================================
 # scalar fields

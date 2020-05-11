@@ -139,9 +139,9 @@
 /
 
  &ocean_lap_tracer_nml
-      use_this_module=.false.
-      vel_micom=0.1
-      tracer_mix_micom=.true.
+      use_this_module=.true.
+      alap = 500.0
+      tracer_mix_micom=.false.
 /
 
  &ocean_lapcst_friction_nml

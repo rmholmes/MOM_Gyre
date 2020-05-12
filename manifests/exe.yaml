@@ -1,8 +1,8 @@
 format: yamanifest
 version: 1.0
 ---
-work/fms_MOM_solo.x:
-  fullpath: /scratch/e14/rmh561/mom/bin/fms_MOM_solo.x
+work/fms_MOM_solo_lapt.x:
+  fullpath: /scratch/e14/rmh561/mom/bin/fms_MOM_solo_lapt.x
   hashes:
-    binhash: 85096997540226af892f0ba5d0b33790
-    md5: 88102aac75e1048991231496fee798e1
+    binhash: bb3a7d194544abe532d066d782abbde8
+    md5: 905603477771cda317438d51d5fa1fbe

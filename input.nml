@@ -352,7 +352,7 @@ frazil_heating_before_vphysics=.false.
  &ocean_vert_const_nml
       use_this_module=.true.
       kappa_h=5.e-5
-      diff_cbt_limit=2.e1
+      diff_cbt_limit=0.2
       kappa_m=0.0
 /
 

@@ -61,6 +61,7 @@
 "ocean_model","temp_advection_on_nrho","temp_advection_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_vdiffuse_sbc_on_nrho","temp_vdiffuse_sbc_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_h_diffuse_on_nrho","temp_h_diffuse_on_nrho", "ocean_wmass","all",.true.,"none",1
 
 # Temperature-binned transports
 "ocean_model","tx_trans_nrho","tx_trans_nrho", "ocean_wmass","all",.true.,"none",1
@@ -75,6 +76,7 @@
 "ocean_model","temp_advection","temp_advection", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_diff_cbt","temp_vdiffuse_diff_cbt", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_sbc","temp_vdiffuse_sbc", "ocean_heat","all",.true.,"none",2
+"ocean_model","temp_h_diffuse","temp_h_diffuse", "ocean_heat","all",.true.,"none",1
 
 # Interesting extras:
 "ocean_model","temp_sort","temp_sort",               "ocean_extra","all",.true.,"none",1
@@ -82,7 +84,7 @@
 #"ocean_model","temp_xflux_neutral","temp_xflux_neutral",  "ocean_extra","all",.true.,"none",2
 #"ocean_model","temp_yflux_neutral","temp_yflux_neutral",  "ocean_extra","all",.true.,"none",2
 #"ocean_model","aiso_bih","aiso_bih",                 "ocean_extra","all",.true.,"none",2
-"ocean_model","temp_h_diffuse","temp_h_diffuse",    "ocean_extra","all",.true. ,"none",2
+#"ocean_model","temp_h_diffuse","temp_h_diffuse",    "ocean_extra","all",.true. ,"none",2
 "ocean_model","depth_of_theta","depth_of_theta",    "ocean_extra","all",.true.,"none",2
 
 #======================================================================================

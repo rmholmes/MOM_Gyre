@@ -10,7 +10,7 @@ jobname: MOM_Gyre
 # Model config
 model: mom
 shortpath: /scratch/e14
-exe: fms_MOM_solo.x
+exe: fms_MOM_solo_lapt.x
 input:
      - gyre1
 collate: true

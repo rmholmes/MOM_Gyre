@@ -71,7 +71,7 @@
 
  &ocean_bihgen_friction_nml
       use_this_module=.true.
-      k_smag_iso=20.0
+      k_smag_iso=2.0
       vel_micom_iso=0.01
 /
 

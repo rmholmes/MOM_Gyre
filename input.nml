@@ -97,7 +97,7 @@
       nrho_face_bin=.true.
       layer_nk=48
       eos_linear=.true.
-      beta_linear_eos=7.3e-4
+      beta_linear_eos=0.7555
 /
 
  &ocean_domains_nml

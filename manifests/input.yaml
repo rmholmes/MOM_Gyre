@@ -11,13 +11,18 @@ work/INPUT/grid_spec.nc:
   hashes:
     binhash: 18a8857c37a1da5b6126b67c79800876
     md5: fcd5d88739c42b1145d985df87400619
-work/INPUT/ocean.res.nc.cpio:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean.res.nc.cpio
+work/INPUT/salt_sfc_restore.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
   hashes:
-    binhash: dbceed66015e99eaabd9854d5497215f
-    md5: d41d8cd98f00b204e9800998ecf8427e
+    binhash: ee33a368f049a2ad13ebfe8d17a8d9bb
+    md5: b5144ccd87801ae3e126e4634f31abc1
 work/INPUT/tau.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/tau.nc
   hashes:
     binhash: 09f509bf05f5d902262e828f8a2250bc
     md5: ffffcca8c32b77b958c03fe9c2f98b68
+work/INPUT/temp_sfc_restore.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/temp_sfc_restore.nc
+  hashes:
+    binhash: 968b5a6efcb5eee9f4976ac05351096d
+    md5: 0b8f38dba029d4ae397e9ee3ad1131cd

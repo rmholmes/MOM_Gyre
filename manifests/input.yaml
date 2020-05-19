@@ -11,6 +11,16 @@ work/INPUT/grid_spec.nc:
   hashes:
     binhash: 18a8857c37a1da5b6126b67c79800876
     md5: fcd5d88739c42b1145d985df87400619
+work/INPUT/ocean_age.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_age.res.nc
+  hashes:
+    binhash: 7836d023910814d536b1f1846ee6bc27
+    md5: e8d423d1f9a7dfe05e6f67f0071ca0e3
+work/INPUT/ocean_temp_salt.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_temp_salt.res.nc
+  hashes:
+    binhash: 21967b08274d648ef40daadaf011c467
+    md5: 8bcd93fc89b366cf4a954c7acde06ba9
 work/INPUT/salt_sfc_restore.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
   hashes:

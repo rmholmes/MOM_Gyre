@@ -19,13 +19,13 @@ work/INPUT/ocean_age.res.nc:
 work/INPUT/ocean_temp_salt.res.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_temp_salt.res.nc
   hashes:
-    binhash: 903f33c162751cf3302a2418caae8079
-    md5: 1076443b0e8fdc2b14a5a674b4d394e9
+    binhash: 8d5bce570fa93a3402e88ff485afbd0d
+    md5: fed2531ee542c55c570da96f88dd9ce7
 work/INPUT/salt_sfc_restore.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
   hashes:
-    binhash: ee33a368f049a2ad13ebfe8d17a8d9bb
-    md5: b5144ccd87801ae3e126e4634f31abc1
+    binhash: 90ef208f22f3c479b7d24b0577b0973d
+    md5: e690129608bd37a00d963a4f2dbf9537
 work/INPUT/tau.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/tau.nc
   hashes:
@@ -34,5 +34,5 @@ work/INPUT/tau.nc:
 work/INPUT/temp_sfc_restore.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/temp_sfc_restore.nc
   hashes:
-    binhash: 968b5a6efcb5eee9f4976ac05351096d
-    md5: 0b8f38dba029d4ae397e9ee3ad1131cd
+    binhash: 41ee34bc801cb65532461e2d06865a6a
+    md5: 9e2ec8094f2919b19f5f4f7952850cc1

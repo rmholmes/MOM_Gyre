@@ -34,10 +34,11 @@
 "ocean_model","rho","rho",                         "ocean","all",.true.,"none",2
 "ocean_model","u","u",                               "ocean","all",.true.,"none",2
 "ocean_model","v","v",                               "ocean","all",.true.,"none",2
-"ocean_model","u","u_rms",                               "ocean","all","rms","none",2
-"ocean_model","v","v_rms",                               "ocean","all","rms","none",2
+"ocean_model","u","u_rms",                           "ocean","all","rms","none",2
+"ocean_model","v","v_rms",                           "ocean","all","rms","none",2
 "ocean_model","dzt","dzt",                           "ocean","all",.true.,"none",2
-"ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
+#"ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
+"ocean_model","visc_cbu","visc_cbu",                 "ocean","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",                       "ocean","all",.true.,"none",2
 "ocean_model","pbot_t","pbot_t",                     "ocean","all",.true.,"none",2
 "ocean_model","tx_trans","tx_trans",                 "ocean","all",.true.,"none",2

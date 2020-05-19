@@ -12,20 +12,3 @@ vertical-advection-scheme = mdppm
 restart_file  = ocean_temp_salt.res.nc
 psom_limit=.true.
 /
-"tracer_packages","ocean_mod","ocean_age_tracer"
-names = global
-horizontal-advection-scheme = mdppm
-vertical-advection-scheme = mdppm
-restart_file  = ocean_age.res.nc
-min_tracer_limit=0.0
-/
-"prog_tracers","ocean_mod","age_global"
-const_init_tracer = t
-const_init_value = 0.0
-/
-"namelists","ocean_mod","ocean_age_tracer/global"
-slat = -90.0
-nlat =  90.0
-wlon =   0.0
-elon = 360.0
-/

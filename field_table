@@ -7,8 +7,8 @@ const_init_value = 12.0
 psom_limit=.true.
 /
 "prog_tracers","ocean_mod","salt"
-horizontal-advection-scheme = psom
-vertical-advection-scheme = psom
+horizontal-advection-scheme = mdppm
+vertical-advection-scheme = mdppm
 restart_file  = ocean_temp_salt.res.nc
 psom_limit=.true.
 /

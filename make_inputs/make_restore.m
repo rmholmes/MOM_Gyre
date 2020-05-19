@@ -16,6 +16,7 @@ dy = yT(2)-yT(1);
 % salt_restore_tscale file structure from MOM025 Control:
 S = ncinfo(mname);
 time = ncread(mname,'TIME');
+tL = length(time);
 
 % alter properties:
 S.Dimensions(1).Length = xL;
@@ -27,7 +28,7 @@ S.Variables(2).Size = yL;
 S.Variables(2).Dimensions(1).Length = yL;
 S.Variables(3) = [];
 S.Variables(4) = [];
-S.Variables(4).Size = [xL yL 12];
+S.Variables(4).Size = [xL yL tL];
 S.Variables(4).Dimensions(1).Length = xL;
 S.Variables(4).Dimensions(2).Length = yL;
 S.Variables(4).Attributes(1).Value = 'SSS';
@@ -58,7 +59,14 @@ SSS_N = 32.0;
 SST = (SST_N-SST_S)*(Y-(yT(1)-dy/2))/(yT(end)-yT(1)+dy)+SST_S;
 SSS = (SSS_N-SSS_S)*(Y-(yT(1)-dy/2))/(yT(end)-yT(1)+dy)+SSS_S;
 
-ncwrite(sname,'SALT',SSS);
-ncwrite(tname,'TEMP',SST);
+ncwrite(sname,'SALT',repmat(SSS,[1 1 tL]));
+ncwrite(tname,'TEMP',repmat(SST,[1 1 tL]));
+
+% Make Salinity IC:
+iname = 'ocean_temp_salt.res.nc';
+salt = ncread(iname,'salt');
+salt = 0*salt+(SSS_N+SSS_S)/2;
+ncwrite(iname,'salt',salt);
+
 
 

@@ -29,6 +29,9 @@
 "ocean_model","geolat_c","geolat_c",                 "ocean","all",.false.,"none",2
 "ocean_model","temp","temp",                         "ocean","all",.true.,"none",2
 "ocean_model","temp","temp_rms",                         "ocean","all","rms","none",2
+"ocean_model","salt","salt",                         "ocean","all",.true.,"none",2
+"ocean_model","salt","salt_rms",                         "ocean","all","rms","none",2
+"ocean_model","rho","rho",                         "ocean","all",.true.,"none",2
 "ocean_model","u","u",                               "ocean","all",.true.,"none",2
 "ocean_model","v","v",                               "ocean","all",.true.,"none",2
 "ocean_model","u","u_rms",                               "ocean","all","rms","none",2

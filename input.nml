@@ -97,6 +97,7 @@
       nrho_face_bin=.true.
       layer_nk=48
       eos_linear=.true.
+      beta_linear_eos=7.3e-4
 /
 
  &ocean_domains_nml
@@ -215,8 +216,8 @@
 /
 
  &ocean_sbc_nml
-      temp_restore_tscale=60.
-      salt_restore_tscale=-10.
+      temp_restore_tscale=30.
+      salt_restore_tscale=30.
       use_waterflux=.true.
       zero_net_salt_restore=.true.
       zero_surface_stress=.false.

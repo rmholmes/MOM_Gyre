@@ -215,7 +215,7 @@
 /
 
  &ocean_sbc_nml
-      temp_restore_tscale=-10.
+      temp_restore_tscale=10.
       salt_restore_tscale=-10.
       use_waterflux=.true.
       zero_net_salt_restore=.true.

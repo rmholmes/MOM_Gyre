@@ -1,3 +1,63 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/ocean_barotropic.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_barotropic.res.nc
+  hashes:
+    binhash: 9dee0f87660b57f9ad6821a01cfe6c71
+    md5: 4f463d185c694b14872ed92400aab37f
+work/INPUT/ocean_bih_friction.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_bih_friction.res.nc
+  hashes:
+    binhash: 8a127da332e0e3fbbb0cb71d2101adba
+    md5: 081cc47c3f7352780d9e46e8f7bb6539
+work/INPUT/ocean_con_temp.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_con_temp.res.nc
+  hashes:
+    binhash: 0eda1c4a6a0dac61929688271b4ed56e
+    md5: dc3ee3fdc42a57afb637e7084ff2cbda
+work/INPUT/ocean_density.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_density.res.nc
+  hashes:
+    binhash: 84ecb1d1c647361083f461060f61e53a
+    md5: 4bdb63c7905763187fac73969d2d3533
+work/INPUT/ocean_neutral.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_neutral.res.nc
+  hashes:
+    binhash: 97fec2a95c976131eb37d12360c99e1d
+    md5: da9ed553223d930adb904ab37dfdfff5
+work/INPUT/ocean_sbc.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_sbc.res.nc
+  hashes:
+    binhash: e7f82abad73a47a1ed990166065b7475
+    md5: 7b532f33ab8ad7ee2c7e2b182fac2e37
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_solo.res
+  hashes:
+    binhash: b51616750396c817d8d44d27fab68e2c
+    md5: 7fd971602c16007d7638c1340636fd3e
+work/INPUT/ocean_temp_salt.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_temp_salt.res.nc
+  hashes:
+    binhash: e115786aeba79d0419b114b23d5a042a
+    md5: 6386aa612faa31d029faa583135e4ada
+work/INPUT/ocean_thickness.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_thickness.res.nc
+  hashes:
+    binhash: 536044348569056b71a842d793ce836a
+    md5: d3139a2987fbed35ba79ecc7ed1cc2ad
+work/INPUT/ocean_tracer.res:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_tracer.res
+  hashes:
+    binhash: ecf71339652a3d8d5f7bfa311192da72
+    md5: fd40cfdb9dec61d8f95e388e3e82dcd2
+work/INPUT/ocean_velocity.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_velocity.res.nc
+  hashes:
+    binhash: 2ce8d58e77c95b1f06a55316b6380ee1
+    md5: 602b028e65596a6e1f0ac3770e2530d0
+work/INPUT/ocean_velocity_advection.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/archive/MOM_Gyre/restart000/ocean_velocity_advection.res.nc
+  hashes:
+    binhash: a3bc321e9c301288e2b9efaa786eb145
+    md5: 9dade10d6e84c063463aaac91408a619

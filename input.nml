@@ -72,7 +72,7 @@
  &ocean_bihgen_friction_nml
       use_this_module=.true.
       k_smag_iso=2.0
-      vel_micom_iso=0.01
+      vel_micom_iso=0.0
 /
 
  &ocean_convect_nml
@@ -140,7 +140,7 @@
 /
 
  &ocean_lap_tracer_nml
-      use_this_module=.true.
+      use_this_module=.false.
       alap = 500.0
       tracer_mix_micom=.false.
 /

@@ -11,11 +11,6 @@ work/INPUT/ocean_age.res.nc:
   hashes:
     binhash: 7836d023910814d536b1f1846ee6bc27
     md5: e8d423d1f9a7dfe05e6f67f0071ca0e3
-work/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_temp_salt.res.nc
-  hashes:
-    binhash: 8d5bce570fa93a3402e88ff485afbd0d
-    md5: fed2531ee542c55c570da96f88dd9ce7
 work/INPUT/salt_sfc_restore.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
   hashes:

@@ -39,7 +39,7 @@
 "ocean_model","dzt","dzt",                           "ocean","all",.true.,"none",2
 "ocean_model","wt","wt",                               "ocean","all",.true.,"none",2
 "ocean_model","wt","wt_rms",                           "ocean","all","rms","none",2
-#"ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
+"ocean_model","diff_cbt_t","diff_cbt_t",             "ocean","all",.true.,"none",2
 "ocean_model","visc_cbu","visc_cbu",                 "ocean","all",.true.,"none",2
 "ocean_model","eta_t","eta_t",                       "ocean","all",.true.,"none",2
 "ocean_model","pbot_t","pbot_t",                     "ocean","all",.true.,"none",2
@@ -66,6 +66,7 @@
 "ocean_model","temp_tendency_on_nrho","temp_tendency_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_advection_on_nrho","temp_advection_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_vdiffuse_diff_cbt_on_nrho","temp_vdiffuse_diff_cbt_on_nrho", "ocean_wmass","all",.true.,"none",1
+"ocean_model","temp_nonlocal_KPP_on_nrho","temp_nonlocal_KPP_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_vdiffuse_sbc_on_nrho","temp_vdiffuse_sbc_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","temp_h_diffuse_on_nrho","temp_h_diffuse_on_nrho", "ocean_wmass","all",.true.,"none",1
 "ocean_model","neutral_diffusion_on_nrho_temp","neutral_diffusion_on_nrho_temp", "ocean_wmass","all",.true.,"none",1
@@ -85,6 +86,7 @@
 "ocean_model","temp_tendency","temp_tendency", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_advection","temp_advection", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_diff_cbt","temp_vdiffuse_diff_cbt", "ocean_heat","all",.true.,"none",2
+"ocean_model","temp_nonlocal_KPP","temp_nonlocal_KPP", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_sbc","temp_vdiffuse_sbc", "ocean_heat","all",.true.,"none",2
 "ocean_model","temp_h_diffuse","temp_h_diffuse", "ocean_heat","all",.true.,"none",1
 "ocean_model","neutral_diffusion_temp","neutral_diffusion_temp", "ocean_heat","all",.true.,"none",1

@@ -176,7 +176,7 @@
 /
 
  &ocean_nphysics_nml
-	use_this_module=.true.
+	use_this_module=.false.
 	debug_this_module=.false.
 	use_nphysicsA=.false.
 	use_nphysicsB=.false.
@@ -184,7 +184,7 @@
 /
 
 &ocean_nphysicsC_nml
-    use_this_module=.true.
+    use_this_module=.false.
     do_neutral_diffusion=.true.
     do_gm_skewsion=.false.
     debug_this_module=.false.
@@ -192,7 +192,7 @@
 
  &ocean_nphysics_util_nml
         nphysics_util_zero_init=.true.
-	aredi=300.0
+	aredi=200.0
         agm=0.0
 	aredi_equal_agm=.false.
 /
@@ -365,8 +365,8 @@ frazil_heating_before_vphysics=.false.
 /
 
  &ocean_vert_const_nml
-      use_this_module=.true.
-      kappa_h=5.e-5
+      use_this_module=.false.
+      kappa_h=1.e-5
       diff_cbt_limit=2.e1
       kappa_m=0.0
 /
@@ -376,24 +376,17 @@ frazil_heating_before_vphysics=.false.
 /
 
  &ocean_vert_kpp_mom4p1_nml
-      use_this_module=.false.
-      diff_cbt_iw = 1.34e-7
-      visc_cbu_iw = 1.34e-6
-      double_diffusion=.true.
+      use_this_module=.true.
+      diff_cbt_iw = 1.0e-5
+      visc_cbu_iw = 1.0e-4
+      double_diffusion=.false.
       Ricr=0.3
       smooth_blmc=.true.
 /
 
  &ocean_vert_mix_nml
-      vert_mix_scheme='const' 
+      vert_mix_scheme='kpp_mom4p1'
       aidif=1.0
-      vert_visc_back=.true.
-      visc_cbu_back_max=1e-2
-      visc_cbu_back_min=1e-3
-      visc_cbu_back_zmid=50.0
-      visc_cbu_back_zwid=100.0
-      use_explicit_vert_diffuse=.false.
-      bryan_lewis_diffusivity=.false.
 /
 
  &ocean_vert_pp_nml

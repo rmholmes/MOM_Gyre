@@ -4,7 +4,7 @@ project: e14
 walltime: 05:00:00
 ncpus: 16
 mem: 16GB
-jobname: MOM_Gyre
+jobname: MOM_Gyre2
 
 
 # Model config

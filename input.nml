@@ -176,7 +176,7 @@
 /
 
  &ocean_nphysics_nml
-	use_this_module=.false.
+	use_this_module=.true.
 	debug_this_module=.false.
 	use_nphysicsA=.false.
 	use_nphysicsB=.false.
@@ -184,7 +184,7 @@
 /
 
 &ocean_nphysicsC_nml
-    use_this_module=.false.
+    use_this_module=.true.
     do_neutral_diffusion=.true.
     do_gm_skewsion=.false.
     debug_this_module=.false.
@@ -192,7 +192,7 @@
 
  &ocean_nphysics_util_nml
         nphysics_util_zero_init=.true.
-	aredi=200.0
+	aredi=300.0
         agm=0.0
 	aredi_equal_agm=.false.
 /

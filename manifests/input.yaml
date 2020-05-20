@@ -1,11 +1,6 @@
 format: yamanifest
 version: 1.0
 ---
-work/INPUT/gotmturb.inp:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/gotmturb.inp
-  hashes:
-    binhash: b590f0290ea3e92fba8454e1333612f4
-    md5: 3016ea3bccf1acd2c18eefdd6dbf02e9
 work/INPUT/grid_spec.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/grid_spec.nc
   hashes:

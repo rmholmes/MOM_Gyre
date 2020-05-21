@@ -2,27 +2,27 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/grid_spec.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/grid_spec.nc
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1_0166/grid_spec.nc
   hashes:
-    binhash: 18a8857c37a1da5b6126b67c79800876
-    md5: fcd5d88739c42b1145d985df87400619
-work/INPUT/ocean_age.res.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_age.res.nc
+    binhash: a0214eadcd9c467a85fc1337721a425d
+    md5: eefddabfb0e2aad060aad7f2b2db880a
+work/INPUT/ocean_temp_salt.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1_0166/ocean_temp_salt.res.nc
   hashes:
-    binhash: 7836d023910814d536b1f1846ee6bc27
-    md5: e8d423d1f9a7dfe05e6f67f0071ca0e3
+    binhash: 531ba484a0dee999e493b1c65f866ddb
+    md5: 6424c4dc008a941e08eaa6e1321b02e0
 work/INPUT/salt_sfc_restore.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1_0166/salt_sfc_restore.nc
   hashes:
-    binhash: 90ef208f22f3c479b7d24b0577b0973d
-    md5: e690129608bd37a00d963a4f2dbf9537
+    binhash: 909d4178b44d7534e11e36107c690892
+    md5: 972b61487ad00e1ce296cd0d4325fd28
 work/INPUT/tau.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/tau.nc
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1_0166/tau.nc
   hashes:
-    binhash: 09f509bf05f5d902262e828f8a2250bc
-    md5: ffffcca8c32b77b958c03fe9c2f98b68
+    binhash: e57320246baf817f9adb8e44190e1e13
+    md5: d4aa1a7015801fe583c0a2dca8a0c4ad
 work/INPUT/temp_sfc_restore.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/temp_sfc_restore.nc
+  fullpath: /scratch/e14/rmh561/mom/input/gyre1_0166/temp_sfc_restore.nc
   hashes:
-    binhash: 41ee34bc801cb65532461e2d06865a6a
-    md5: 9e2ec8094f2919b19f5f4f7952850cc1
+    binhash: 35222079ef6744ade5d31dda81f348a7
+    md5: eb94789b1aba9116aab08cac8aa6eff0

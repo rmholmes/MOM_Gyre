@@ -259,7 +259,7 @@
 
  &ocean_solo_nml
       months = 0
-      days   = 120
+      days   = 360
       date_init = 1980,1,1,0,0,0
       hours = 0
       minutes = 0

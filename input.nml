@@ -161,7 +161,7 @@
 /
 
  &ocean_model_nml
-      dt_ocean = 1800
+      dt_ocean = 1200
       vertical_coordinate='zstar'
       time_tendency='twolevel'      
       baroclinic_split=1
@@ -259,7 +259,7 @@
 
  &ocean_solo_nml
       months = 0
-      days   = 3600
+      days   = 120
       date_init = 1980,1,1,0,0,0
       hours = 0
       minutes = 0

@@ -377,7 +377,7 @@ frazil_heating_before_vphysics=.false.
 
  &ocean_vert_kpp_mom4p1_nml
       use_this_module=.true.
-      diff_cbt_iw = 1.0e-5
+      diff_cbt_iw = 1.0e-4
       visc_cbu_iw = 1.0e-4
       double_diffusion=.false.
       Ricr=0.3

@@ -1,11 +1,13 @@
 % Make SST and SSS restoring files for MOM-Gyre simulation.
 
-gname = 'grid_spec.nc';
-mname = 'salt_sfc_restore_MOM025.nc';
-sname = 'salt_sfc_restore.nc';
-tname = 'temp_sfc_restore.nc';
-delete(sname);
-delete(tname);
+base = '/scratch/e14/rmh561/mom/input/';
+base2 = [base 'gyre1/'];
+gname = [base2 'grid_spec_0166.nc'];
+mname = [base 'gfdl_nyf_1080_clean/salt_sfc_restore.nc'];
+sname = [base2 'salt_sfc_restore_0166.nc'];
+tname = [base2 'temp_sfc_restore_0166.nc'];
+% $$$ delete(sname);
+% $$$ delete(tname);
 
 % Gyre spatial grid info:
 xT = ncread(gname,'grid_x_T');xL = length(xT);
@@ -35,11 +37,11 @@ S.Variables(4).Attributes(1).Value = 'SSS';
 S.Variables(4).Attributes(3) = [];
 S.Variables(4).Attributes(3) = [];
 
-ncwriteschema('salt_sfc_restore.nc',S);
+ncwriteschema(sname,S);
 S.Variables(4).Name = 'TEMP';
 S.Variables(4).Attributes(1).Value = 'SST';
 S.Variables(4).Attributes(2).Value = 'degC';
-ncwriteschema('temp_sfc_restore.nc',S);
+ncwriteschema(tname,S);
 
 ncwrite(sname,'XT_OCEAN',xT);
 ncwrite(tname,'XT_OCEAN',xT);
@@ -62,11 +64,11 @@ SSS = (SSS_N-SSS_S)*(Y-(yT(1)-dy/2))/(yT(end)-yT(1)+dy)+SSS_S;
 ncwrite(sname,'SALT',repmat(SSS,[1 1 tL]));
 ncwrite(tname,'TEMP',repmat(SST,[1 1 tL]));
 
-% Make Salinity IC:
-iname = 'ocean_temp_salt.res.nc';
-salt = ncread(iname,'salt');
-salt = 0*salt+(SSS_N+SSS_S)/2;
-ncwrite(iname,'salt',salt);
+% $$$ % Make Salinity IC:
+% $$$ iname = 'ocean_temp_salt.res.nc';
+% $$$ salt = ncread(iname,'salt');
+% $$$ salt = 0*salt+(SSS_N+SSS_S)/2;
+% $$$ ncwrite(iname,'salt',salt);
 
 
 

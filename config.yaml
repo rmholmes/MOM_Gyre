@@ -1,9 +1,9 @@
 # PBS flags
 queue: express
 project: e14
-walltime: 01:30:00
-ncpus: 8
-mem: 8GB
+walltime: 04:00:00
+ncpus: 32
+mem: 32GB
 jobname: MOM_Gyre
 
 
@@ -12,7 +12,7 @@ model: mom
 shortpath: /scratch/e14
 exe: fms_MOM_solo_lapt.x
 input:
-     - gyre1
+     - gyre1_0166
 collate: true
 restart_freq: 1
 

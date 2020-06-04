@@ -32,17 +32,22 @@
       barotropic_time_stepping_A=.true.
       barotropic_time_stepping_B=.false.     
       pred_corr_gamma=0.2
-      smooth_eta_t_laplacian=.false.
-      smooth_pbot_t_laplacian=.false.
+      smooth_eta_t_biharmonic=.true.
+      smooth_pbot_t_biharmonic=.true.
+      smooth_eta_diag_laplacian=.true.
+      vel_micom_lap_diag=.5
       vel_micom_lap=0.05 
+      vel_micom_bih=.01 
       truncate_eta=.false.
-      eta_max=9.0
+      eta_max=8.0
       verbose_truncate=.true.
-      frac_crit_cell_height=0.10 
-      diag_step=80
+      frac_crit_cell_height=0.20 
+      diag_step=192
       zero_tendency=.false.
       zero_forcing_bt=.false.
       zero_nonlinear_forcing_bt=.false.
+      barotropic_halo = 10
+      use_legacy_barotropic_halos=.false.
 /
 
  &ocean_bbc_nml

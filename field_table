@@ -9,6 +9,6 @@ psom_limit=.true.
 "prog_tracers","ocean_mod","salt"
 horizontal-advection-scheme = mdppm
 vertical-advection-scheme = mdppm
-restart_file  = ocean_temp_salt.res.nc
+restart_file  = ocean_temp_salt_salthor.res.nc
 psom_limit=.true.
 /

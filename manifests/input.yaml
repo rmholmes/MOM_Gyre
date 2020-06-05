@@ -19,8 +19,8 @@ work/INPUT/ocean_temp_salt.res.nc:
 work/INPUT/ocean_temp_salt_salthor.res.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_temp_salt_salthor.res.nc
   hashes:
-    binhash: a2adb32537eb13bfa30145e83a01160b
-    md5: c3263a1bbf45ae332bb85a388980439d
+    binhash: 4b4a609263bb5bb133086ae162850b86
+    md5: a60179ec4561cbb58b5b060c492a8938
 work/INPUT/salt_sfc_restore.nc:
   fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
   hashes:

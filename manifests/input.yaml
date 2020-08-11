@@ -6,11 +6,6 @@ work/INPUT/grid_spec.nc:
   hashes:
     binhash: a14f8e230d06bc735a490bcb53ad6505
     md5: 689031464724f87aa5cd6dd06353585f
-work/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/ocean_temp_salt.res.nc
-  hashes:
-    binhash: db5ee05dbf15d4220cec9cf6a11a6e37
-    md5: 5e1e9483435059fc672ff863dc98fae8
 work/INPUT/ocean_temp_salt_res_momgyre.nc:
   fullpath: /scratch/e14/rmh561/mom/input/mom_ra/ocean_temp_salt_res_momgyre.nc
   hashes:

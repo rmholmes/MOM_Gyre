@@ -185,7 +185,7 @@
 
 &ocean_nphysicsC_nml
     use_this_module=.false.
-    do_neutral_diffusion=.true.
+    do_neutral_diffusion=.false.
     do_gm_skewsion=.false.
     debug_this_module=.false.
 /

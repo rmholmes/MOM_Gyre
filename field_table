@@ -2,13 +2,7 @@
 horizontal-advection-scheme = mdppm
 vertical-advection-scheme = mdppm
 restart_file  = ocean_temp_salt.res.nc
-const_init_tracer = f
-const_init_value = 12.0
-psom_limit=.true.
-/
-"prog_tracers","ocean_mod","salt"
-horizontal-advection-scheme = mdppm
-vertical-advection-scheme = mdppm
-restart_file  = ocean_temp_salt_salthor.res.nc
+const_init_tracer = t
+const_init_value = 15.0
 psom_limit=.true.
 /

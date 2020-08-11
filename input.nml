@@ -230,11 +230,11 @@
 /
 
  &ocean_sbc_nml
-      temp_restore_tscale=60.
-      salt_restore_tscale=60.
+      temp_restore_tscale=1.
+      salt_restore_tscale=-10.
       use_waterflux=.true.
       zero_net_salt_restore=.true.
-      zero_surface_stress=.false.
+      zero_surface_stress=.true.
 /
 
  &ocean_shortwave_csiro_nml
@@ -259,7 +259,7 @@
 
  &ocean_solo_nml
       months = 0
-      days   = 3600
+      days   = 180
       date_init = 1980,1,1,0,0,0
       hours = 0
       minutes = 0

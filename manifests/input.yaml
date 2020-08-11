@@ -2,27 +2,32 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/grid_spec.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/grid_spec.nc
+  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/grid_spec.nc
   hashes:
-    binhash: 18a8857c37a1da5b6126b67c79800876
-    md5: fcd5d88739c42b1145d985df87400619
-work/INPUT/ocean_age.res.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/ocean_age.res.nc
+    binhash: 0f3a8168612d2d32e642f8756143c79f
+    md5: 254a0f6159002151c69bf09065e8dfc0
+work/INPUT/ocean_temp_salt.res.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/ocean_temp_salt.res.nc
   hashes:
-    binhash: 7836d023910814d536b1f1846ee6bc27
-    md5: e8d423d1f9a7dfe05e6f67f0071ca0e3
-work/INPUT/salt_sfc_restore.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/salt_sfc_restore.nc
+    binhash: 06774a19c04ce7ab255068337deb358e
+    md5: 6ef22c03c1b80121c241c51d4369b488
+work/INPUT/ocean_temp_salt_res_momgyre.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/ocean_temp_salt_res_momgyre.nc
   hashes:
-    binhash: 90ef208f22f3c479b7d24b0577b0973d
-    md5: e690129608bd37a00d963a4f2dbf9537
+    binhash: 1df248bf69ae9a49f0d955f4d394381f
+    md5: 8bcd93fc89b366cf4a954c7acde06ba9
+work/INPUT/salt_sfc_restore_MOM025.nc:
+  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/salt_sfc_restore_MOM025.nc
+  hashes:
+    binhash: 8c85688813fa58d866d372e2a782a2a0
+    md5: 03b22565aee5aabc37e8b599d2ae6f08
 work/INPUT/tau.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/tau.nc
+  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/tau.nc
   hashes:
-    binhash: 09f509bf05f5d902262e828f8a2250bc
+    binhash: d3d0d16ebddc40a0443007ace64c77e5
     md5: ffffcca8c32b77b958c03fe9c2f98b68
 work/INPUT/temp_sfc_restore.nc:
-  fullpath: /scratch/e14/rmh561/mom/input/gyre1/temp_sfc_restore.nc
+  fullpath: /scratch/e14/rmh561/mom/input/mom_ra/temp_sfc_restore.nc
   hashes:
-    binhash: 41ee34bc801cb65532461e2d06865a6a
-    md5: 9e2ec8094f2919b19f5f4f7952850cc1
+    binhash: 83838e763cf3d75a996ddf39e6dae2be
+    md5: ca8bb33a9727eed9e890f111bf7a8549

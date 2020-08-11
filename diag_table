@@ -47,7 +47,6 @@
 "ocean_model","temp_tendency","temp_tendency", "ocean","all",.true.,"none",2
 "ocean_model","temp_advection","temp_advection", "ocean","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_diff_cbt","temp_vdiffuse_diff_cbt", "ocean","all",.true.,"none",2
-"ocean_model","temp_nonlocal_KPP","temp_nonlocal_KPP", "ocean","all",.true.,"none",2
 "ocean_model","temp_vdiffuse_sbc","temp_vdiffuse_sbc", "ocean","all",.true.,"none",2
 
 #======================================================================================

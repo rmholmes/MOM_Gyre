@@ -1,9 +1,9 @@
 "mom4p1 gyre"
 1980 1 1 0 0 0
 "ocean_grid" ,  1,"days"  ,1,"days","Time"
-"ocean"      ,  1,"hours" ,1,"days","Time"
+"ocean"      ,  1,"days" ,1,"days","Time"
 "ocean_scalar", 1,"days"  ,1,"days","Time"
-"ocean_snap"  , 1,"hours" ,1,"days","Time"
+"ocean_snap"  , 1,"days" ,1,"days","Time"
 #
 #===========================================================================
 # ocean model grid quantities (static fields and so not time averaged)

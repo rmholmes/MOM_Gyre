@@ -87,8 +87,8 @@
        grid_type   = 'hgrid_vgrid_topog'
        output_file = '$name.nc'  /    
     &hgrid_nml
-       nxlons=2,x_lon=0.,10.,dx_lon=5.0,5.0,
-       nylats=2,y_lat=0.,10.,dy_lat=5.0,5.0,
+       nxlons=2,x_lon=0.,10.,dx_lon=2.0,2.0,
+       nylats=2,y_lat=0.,10.,dy_lat=2.0,2.0,
        tripolar_grid=.false.,lat_join=65, 
        cyclic_x=.true.,
        cyclic_y=.true.,

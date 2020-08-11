@@ -4,13 +4,13 @@ version: 1.0
 work/INPUT/grid_spec.nc:
   fullpath: /scratch/e14/rmh561/mom/input/mom_ra/grid_spec.nc
   hashes:
-    binhash: 0f3a8168612d2d32e642f8756143c79f
-    md5: 254a0f6159002151c69bf09065e8dfc0
+    binhash: a14f8e230d06bc735a490bcb53ad6505
+    md5: 689031464724f87aa5cd6dd06353585f
 work/INPUT/ocean_temp_salt.res.nc:
   fullpath: /scratch/e14/rmh561/mom/input/mom_ra/ocean_temp_salt.res.nc
   hashes:
-    binhash: 06774a19c04ce7ab255068337deb358e
-    md5: 6ef22c03c1b80121c241c51d4369b488
+    binhash: db5ee05dbf15d4220cec9cf6a11a6e37
+    md5: 5e1e9483435059fc672ff863dc98fae8
 work/INPUT/ocean_temp_salt_res_momgyre.nc:
   fullpath: /scratch/e14/rmh561/mom/input/mom_ra/ocean_temp_salt_res_momgyre.nc
   hashes:
@@ -29,5 +29,5 @@ work/INPUT/tau.nc:
 work/INPUT/temp_sfc_restore.nc:
   fullpath: /scratch/e14/rmh561/mom/input/mom_ra/temp_sfc_restore.nc
   hashes:
-    binhash: 83838e763cf3d75a996ddf39e6dae2be
-    md5: ca8bb33a9727eed9e890f111bf7a8549
+    binhash: 9b0dd154389ae989c76e163fcb41bd09
+    md5: 35b79705f17ba135dad51ed6376f25fc
